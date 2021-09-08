@@ -39,7 +39,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'better_errors',     '~> 2.1.1'
+  gem 'better_errors',     '~> 2.8.0'
   gem 'binding_of_caller', '~> 0.7.2'
   gem 'pry-rails',         '~> 0.3.4'
 end
